@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Neue ToDo-Liste</title>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="neue%20ToDo.css" >
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    
+    </head>
+    <body>
+        <h1>ToDo-Liste</h1>
+        <div class="text">
+            <p>Gib Text im Eingabefeld ein, um Aufgaben zur Liste hinzuzufügen.</p>
+            <p>Klicke auf eine Aufgabe, um sie als erledigt zu markieren.</p>
+            <p>Klicke auf "X", um eine Aufgabe aus der Liste zu entfernen.</p>  
+        </div>
+        <div class="input">
+            <input id="eingabe" type="text" placeholder="Neue Aufgabe..." maxlength="27">
+            <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+        </div>
+        <div class="liste">
+            <ul>
+            </ul>
+        </div>
+        
+        <!-- Script -->
+        <script src="ToDo.js" ></script>
+        
+    </body>
+
+</html>
